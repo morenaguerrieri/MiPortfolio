@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+ 
+footer div {
+  
+    width: 100%;
+    height: 50px;
+    background-image: url(../imagenes/animacion.png);
+    border: 1px;
+    border-color: black;
+    background-position: 0px 0px;
+    animation: chau 3s infinite;
+    animation-timing-function: steps(3);
+
+}
+
+@keyframes chau{
+    from {
+        background-position: 0px 0px;
+    }
+    to {
+        background-position: 0px -140px;
+    }
+
+    
+}
+footer div:nth-child(2){
+    background-position: 0px -48px;
+}
+footer div:nth-child(3){
+    background-position: 0px -92px;
+}
+footer div:nth-child(4){
+    background-position: 0px -140px;
+}
+
+
+header div{
+    width: 100%;
+    height: 100px;
+    background-image: url(../imagenes/aficheta.2.jpg);
+    background-size: contain;
+}
+h1,h3
+{
+    font-family: "Poppins";
+    font-weight: 400; 
+    color:#c3d1ae;
+}
+h3 {
+    text-align: center;
+}
+h1 {
+    text-align: left;
+    padding-left: 5%;
+}
+p
+{
+    margin: auto;
+    width: 60%;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+
+h4
+{ 
+    font-family: "Poppins";
+    font-weight: 200;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    background-color: #c3d1ae;
+    color: aliceblue;
+}
+
+
+header a {
+    font-family: "Poppins";
+    font-size: smaller;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    background-color:#c3d1ae ;
+
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+    display: block;
+    margin: auto;
+    line-height: 20px;
+    padding: 1px;
+    transition: all 0.5s;
+
+   
+}
+
+header a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #e9a401;
+    display: block;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+ div {
+width: 23%;
+}
+
+#video {
+    width: 90%;
+    margin: 20px auto;
+}
+
+img, video {
+    width: 100%;
+}
+
+ footer {
+    font-family: "Poppins";
+    font-weight: 400; 
+   font-size: larger;
+    color:#c3d1ae;
+    text-align:center;
+ 
+} 
+
